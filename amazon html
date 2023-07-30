@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Listing Page</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="amazon.css">
+</head>
+<body>
+<!-- Header -->
+<header class="bg-dark text-white">
+<div class="container">
+<nav class="navbar navbar-expand-md">
+<img class="logo"
+src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo"
+height="35px">
+<button class="navbar-toggler" type="button" data-toggle="collapse" datatarget="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+    <li class="nav-item">
+    <a class="nav-link" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#">Products</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#">Contact Us</a>
+    </li>
+    <li class="nav-item">
+    <form class="form-inline">
+    <input class="form-control mr-sm-2" type="text" 
+    placeholder="Search">
+<button class="btn btn-warning"
+type="submit">Search</button>
+</form>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</header>
+<!-- Main Content -->
+<main class="container my-4">
+    <h1 class="text-center mb-4">Today's Deals</h1>
+<div class="row">
+<div class="col-md-4">
+<div class="card product">
+<img src="1.jpg" class="card-img-top" alt="Product Image">
+<div class="card-body">
+<h3 class="card-title"></h3>
+<p class="card-text">Best of Home Storage and Organisation</p>
+<button
+onclick="loccation.href='https://https://images-eu.ssl-images-amazon.com/images/G/31/img22/Electronics/Clearance/Clearance_store_Desktop_CC_1x._SY304_CB628315133_.jpg
+3b1da3b%2C6ce5d816%2C23712d64%2C098f8e34%2Cdbe04c7d%2C619896f9%2C18ca6a49%2C0
+2cf201a%2Cc0b44114%2C211c3215%2Cd233c874%2C5691d5ce%2C4434d1ef%2C34c49967%2C0
+19403c1%2Ca5e57145%2Ca4c9d21a%2C5c71e6b9%2Cbc4bd3c9%2C966fab14&pf_rd_r=87765J43
+T8FAM4J6N5AM&pf_rd_t=Events&pf_rd_i=deals&pf_rd_p=dbf075f8-294a-4421-a404-
+155779574560&pf_rd_s=slot-15&ref=dlx_deals_gd_dcl_img_0_b974b4bc_dt_sl15_60'" class="btn 
+btn-warning">Add to Cart</button>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card product">
+<img src="2.jpg" class="card-img-top" alt="Product Image">
+<div class="card-body">
+<h3 class="card-title"></h3>
+<p class="card-text">Branded Suitcase, Backpacks and Duffles -
+    American Tourister, Safari, Skybags, etc.</p>
+<button
+onclick="loccation.href='https://www.amazon.in/deal/be2da606?showVariations=true&pf_rd_r=8776
+5J43T8FAM4J6N5AM&pf_rd_t=Events&pf_rd_i=deals&pf_rd_p=dbf075f8-294a-4421-a404-
+155779574560&pf_rd_s=slot-15&ref=dlx_deals_gd_dcl_img_10_be2da606_dt_sl15_60'" class="btn 
+btn-warning">Add to Cart</button>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+    <div class="card product">
+    <img src="3.jpg" class="card-img-top" alt="Product Image">
+    <div class="card-body">
+    <h3 class="card-title"></h3>
+    <p class="card-text">Bestselling JBL True Wireless Earbuds &
+        Speakers.
+ </p>
+ <button
+onclick="loccation.href='https://www.amazon.in/s?rh=p_6%3AA14CZOWI0VEHLG&dc&hiddenkeywords=B09XSJ8XF4%7CB09HGW9V7D%7CB07B88KQZ8%7CB09HGR1DVC%7CB096FYL
+J6M%7CB0BHTJLFVP%7CB0BHDMHHM9%7CB0BV9ZRNW6%7CB0B1SJ7YSK%7CB0BSXD
+JSPH%7CB0B96HFBNX%7CB08QTYYNDN%7CB07SVH63PX%7CB08FB2H6Y4%7CB0B6465
+WX6%7CB08VDNCZT9%7CB0827SG8J8%7CB0B6441RNK%7CB09V7WS4PP%7CB0778Q1SC
+Z%7CB09JVCT78G%7CB09Y8T1GXF%7CB08VNJ5BHN%7CB0BRKVX9XS%7CB09VGRB3W
+B%7CB0BRKXF951%7CB0BRKYK4HQ&pf_rd_i=deals&pf_rd_p=dbf075f8-294a-4421-a404-
+155779574560&pf_rd_r=M4E8VM347R9QPVNPY3QX&pf_rd_s=slot15&pf_rd_t=Events&ref=dlx_deals_gd_dcl_img_14_a87ebf92_dt_sl15_60'" class="btn btn
+Speakers.
+ </p>
+ <button
+onclick="loccation.href='https://www.amazon.in/s?rh=p_6%3AA14CZOWI0VEHLG&dc&hiddenkeywords=B09XSJ8XF4%7CB09HGW9V7D%7CB07B88KQZ8%7CB09HGR1DVC%7CB096FYL
+J6M%7CB0BHTJLFVP%7CB0BHDMHHM9%7CB0BV9ZRNW6%7CB0B1SJ7YSK%7CB0BSXD
+JSPH%7CB0B96HFBNX%7CB08QTYYNDN%7CB07SVH63PX%7CB08FB2H6Y4%7CB0B6465
+WX6%7CB08VDNCZT9%7CB0827SG8J8%7CB0B6441RNK%7CB09V7WS4PP%7CB0778Q1SC
+Z%7CB09JVCT78G%7CB09Y8T1GXF%7CB08VNJ5BHN%7CB0BRKVX9XS%7CB09VGRB3W
+B%7CB0BRKXF951%7CB0BRKYK4HQ&pf_rd_i=deals&pf_rd_p=dbf075f8-294a-4421-a404-
+155779574560&pf_rd_r=M4E8VM347R9QPVNPY3QX&pf_rd_s=slot15&pf_rd_t=Events&ref=dlx_deals_gd_dcl_img_14_a87ebf92_dt_sl15_60'" class="btn btn
+warning">Add to Cart</button>
+ </div>
+ </div>
+ </div>
+ </div>
+<div class="row">
+<div class="col-md-4">
+<div class="card product">
+<img src="4.jpg" class="card-img-top" alt="Product Image">
+<div class="card-body">
+    <h3 class="card-title"></h3>
+    <p class="card-text">Lava Blaze 5G (6GB) available at Rs.
+    11,999</p>
+    <button
+    onclick="loccation.href='https://www.amazon.in/deal/671ba059?showVariations=true&pf_rd_r=M4E
+    8VM347R9QPVNPY3QX&pf_rd_t=Events&pf_rd_i=deals&pf_rd_p=dbf075f8-294a-4421-a404-
+    155779574560&pf_rd_s=slot-15&ref=dlx_deals_gd_dcl_img_20_671ba059_dt_sl15_60'" class="btn
+btn-warning">Add to Cart</button>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card product">
+<img src="5.jpg" class="card-img-top" alt="Product Image">
+<div class="card-body">
+<h3 class="card-title"></h3>
+<p class="card-text">Branded Backpacks, Daypacks &
+    Wallets.</p>
+<button
+onclick="location.href='https://www.amazon.in/deal/a56b169a?showVariations=true&pf_rd_r=NZKV
+19F3RB2ACJMPQ7C4&pf_rd_t=Events&pf_rd_i=deals&pf_rd_p=dbf075f8-294a-4421-a404-
+155779574560&pf_rd_s=slot-15&ref=dlx_deals_gd_dcl_img_42_a56b169a_dt_sl15_60'" class="btn 
+btn-warning"> View More</button>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card product">
+<img src="6.jpg" class="card-img-top" alt="Product Image">
+<div class="card-body">
+<h3 class="card-title"></h3>
+<p class="card-text">Amazing Offers on Health Nutrition by
+HealthKart.
+</p>
+<button
+onclick="loccation.href='https://www.amazon.in/HealthKart-Vitals-Vitamin-CapsulesOmega/dp/B09G32TFTC?pf_rd_r=NZKV19F3RB2ACJMPQ7C4&pf_rd_t=Events&pf_rd_i=deals&
+pf_rd_p=dbf075f8-294a-4421-a404-155779574560&pf_rd_s=slot15&ref=dlx_deals_gd_dcl_img_44_9edf48ce_dt_sl15_60&th=1'" class="btn btn-warning">Add to 
+Cart</button>
+</div>
+</div>
+</div>
+</div>
+ </main>
+ <!-- Footer -->
+ <footer class="bg-dark text-white py-3">
+ <div class="container">
+ <div class="row">
+ <div class="col-md-6">
+ <h2>Sanjana Raj</h2>
+ <p class="text-muted">With the operations of an e-commerce business made simpler
+with FBA, more of your time can be focused on sales and marketing. On FBA, this means securing
+positive product reviews and coming up with creative marketing slogans or taglines for their shop.
+With that, I hope this list of slogan ideas will help you create one for an Amazon FBA business.</p>
+</div>
+<div class="col-md-3">
+<h4>Quick Links</h4>
+<ul class="list-unstyled">
+<li><a href="#">Home</a></li>
+<li><a href="#">Products</a></li>
+<li><a href="#">Contact Us</a></li>
+ </ul>
+ </div>
+ <div class="col-md-3">
+ <h4>Follow Us</h4>
+ <ul class="list-unstyled">
+ <li><a href="#">Facebook</a></li>
+ <li><a href="#">Twitter</a></li>
+ <li><a href="#">Instagram</a></li>
+ </ul>
+</div>
+</div>
+<hr>
+<p class="text-muted text-center">Copyright &copy; Sanjana 2023
+</p>
+</div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html> 
